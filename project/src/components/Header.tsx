@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Menu } from 'lucide-react';
+import { Club as GolfClub, X, Menu } from 'lucide-react';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-black border-b neon-border">
       <div className="container mx-auto px-4 py-5 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          {/* Removed GolfClub icon */}
+          <GolfClub className="h-8 w-8 text-[#00ff9d]" />
           <h1 className="text-2xl font-bold text-white neon-glow">Golf Cart Calculator</h1>
         </div>
         <div className="hidden md:flex items-center space-x-6">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, DollarSign, Camera, Wrench, Clock, Users, CheckCircle } from 'lucide-react'; // Replaced Tool with Wrench
+import { ArrowLeft, DollarSign, Camera, Tool, Clock, Users, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const SellingTips = () => {
@@ -35,7 +35,7 @@ const SellingTips = () => {
             </div>
             
             <div className="bg-gray-800 p-5 rounded-lg flex flex-col items-center text-center">
-              <Wrench className="h-10 w-10 text-[#00ff9d] mb-3" /> {/* Replaced Tool with Wrench */}
+              <Tool className="h-10 w-10 text-[#00ff9d] mb-3" />
               <h3 className="text-lg font-semibold mb-2">Pre-Sale Prep</h3>
               <p className="text-sm">Simple repairs and cleaning can increase your cart's value by 10-15%</p>
             </div>
